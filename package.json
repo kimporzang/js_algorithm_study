@@ -4,7 +4,10 @@
   "description": "��#\u0000 \u0000j\u0000s\u0000_\u0000a\u0000l\u0000g\u0000o\u0000r\u0000i\u0000t\u0000h\u0000m\u0000_\u0000s\u0000t\u0000u\u0000d\u0000y\u0000\r\u0000 \u0000",
   "main": "index.js",
   "devDependencies": {
-    "eslint": "^8.30.0"
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/1day2solve/js_algorithm_study/issues"
   },
-  "homepage": "https://github.com/1day2solve/js_algorithm_study#readme"
+  "homepage": "https://github.com/1day2solve/js_algorithm_study#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "install-peerdeps": "^3.0.3"
+  }
 }
